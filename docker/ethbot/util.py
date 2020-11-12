@@ -9,7 +9,7 @@ import os
 
 # connect to node
 #INFURA_PROJ_ID = os.environ['INFURA_PROJ_ID']
-w3 = Web3(Web3.HTTPProvider("https://ropsten.infura.io/v3/ad99dd06722f44fa995d465e938f4a14"))
+w3 = Web3(Web3.HTTPProvider("https://ropsten.infura.io/v3/xxx"))
 
 # aes and hmac
 def encrypt_then_mac(data, aes_key, hmac_key):
